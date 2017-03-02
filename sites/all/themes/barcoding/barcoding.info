@@ -1,0 +1,47 @@
+; Barcoding custom theme
+
+screenshot  = screenshot.png
+name        = Barcoding Theme
+description = A custom theme made for Barcoding Incorporated.
+core        = 7.x
+
+
+
+; Add stylesheets
+
+stylesheets[all][] = css/styles.css
+;stylesheets[all][] = css/print.min.css
+
+
+; Add Javascripts
+
+;scripts[] = js/build/site.min.js
+;scripts[] = js/build/main.min.js
+
+
+; Barcoding Theme custom regions
+
+regions[top_nav_bar] = Top Nav Bar
+regions[header] = Header
+regions[content]     = Content
+regions[footer]      = Footer
+regions[footer_lace] = Footer Lace
+regions[footer_sole] = Footer Sole
+
+
+; Required Regions - Hidden
+
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+
+; Page elements that can be toggled on and off
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
