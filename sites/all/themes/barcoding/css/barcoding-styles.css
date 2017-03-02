@@ -1,0 +1,15 @@
+/* Barcoding Styles */
+
+.not-front #main{
+    background-color:#fff;
+}
+
+.not-front input[type='text']{
+    border:1px solid #2a2a2a; 
+    width:inherit;
+    padding:5px;
+}
+
+.not-front #main .region.region-content{
+    margin:20px;   
+}

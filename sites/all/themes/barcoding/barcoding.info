@@ -10,6 +10,7 @@ core        = 7.x
 ; Add stylesheets
 
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/barcoding-styles.css
 ;stylesheets[all][] = css/print.min.css
 
 
