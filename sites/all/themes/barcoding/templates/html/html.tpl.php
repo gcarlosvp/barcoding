@@ -62,7 +62,7 @@
   <?php print $page_bottom; ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <?php // print $scripts; ?>
-      <script src="/sites/all/themes/barcoding/js/build/main.js"></script>
-    <script src="/sites/all/themes/barcoding/js/build/site.js"></script>
+      <script src="/barcoding/sites/all/themes/barcoding/js/build/main.js"></script>
+    <script src="/barcoding/sites/all/themes/barcoding/js/build/site.js"></script>
 </body>
 </html>
